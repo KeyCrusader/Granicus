@@ -1,6 +1,3 @@
-let debugMode = '{#debug/bool_debugMode}';
-console.log('{#debug/bool_debugMode}');
-
 // Checks if the user is logged in through service, if not hides the listed fields
 if (('{#product}' !== 'Service' || '{#is_authenticated}' === 'false') || debugMode) {
 	// Loop through all radio and checkbox elements
@@ -23,4 +20,3 @@ if (('{#product}' !== 'Service' || '{#is_authenticated}' === 'false') || debugMo
 		});
 	});
 }
-debugMode = null;
