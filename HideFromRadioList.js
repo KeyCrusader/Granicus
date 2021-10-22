@@ -22,4 +22,5 @@ if (('{#product}' !== 'Service' || '{#is_authenticated}' === 'false') || debugMo
 			}
 		});
 	});
-}	
+}
+debugMode = null;
