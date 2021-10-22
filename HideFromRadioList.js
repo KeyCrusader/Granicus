@@ -1,5 +1,5 @@
 // Checks if the user is logged in through service, if not hides the listed fields
-if (('{#product}' !== 'Service' || '{#is_authenticated}' === 'false') || debugMode) {
+if (('{#product}' !== 'Service' || '{#is_authenticated}' === 'false')) {
 	// Loop through all radio and checkbox elements
 	Array.from(document.querySelectorAll('.radio,.checkbox')).forEach(selectElement => {
 		// Loop through each span object within radio (these hold the input and label)
